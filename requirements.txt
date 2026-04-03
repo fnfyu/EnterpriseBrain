@@ -1,0 +1,52 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# LangChain / LangGraph ecosystem
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-community==0.3.0
+langchain-anthropic==0.2.0
+langgraph==0.2.28
+langgraph-checkpoint-postgres==2.0.1
+
+# LLM & Embeddings
+anthropic==0.34.0
+sentence-transformers==3.1.1   # BGE-M3
+
+# Vector / Graph / Relational databases
+psycopg2-binary==2.9.9
+pgvector==0.3.2
+sqlalchemy==2.0.35
+neo4j==5.24.0
+redis==5.1.0
+
+# Document parsing
+llama-parse==0.5.3
+unstructured[all-docs]==0.15.12
+
+# Search / Retrieval
+rank-bm25==0.2.2               # BM25 keyword search
+FlagEmbedding==1.2.11          # BGE-Reranker / Cross-Encoder
+
+# Observability
+langsmith==0.1.129
+
+# Code sandbox
+e2b-code-interpreter==1.0.0
+
+# Utilities
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.27.2
+tenacity==9.0.0
+structlog==24.4.0
+python-dotenv==1.0.1
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
